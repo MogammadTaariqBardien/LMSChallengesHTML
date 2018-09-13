@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Forms Challenge</title>
+  </head>
+  <body>
+
+    <h1>Coffee Shop Information Survey</h1>
+
+    <!-- Start of a form -->
+
+    <form class="" action="index.html" method="post">
+
+        First name:<br>
+        <!-- Field to get a users first name -->
+          <input type="text" name="firstname" placeholder="Name"><br><br>
+
+        Last name:<br>
+        <!-- Field to get the users last name -->
+          <input type="text" name="lastname" placeholder="Surname"><br><br>
+
+        Password:<br>
+        <!-- Field to get a password from the user -->
+          <input type="password" name="password" placeholder="Password"><br><br>
+
+        Contact Details:<br>
+        <!-- Field to get the user contact details, in number format -->
+          <input type="tel" name="cell" placeholder="Cell Number"><br><br>
+
+        Email:<br>
+        <!-- Field to get the users email  -->
+          <input type="email" name="email" placeholder="Email"><br><br>
+
+        Birthday:<br>
+        <!-- Field to get the users birthday, with a date picker -->
+          <input type="date" name="bday"><br><br>
+
+        Gender:<br>
+        <!-- Drop down box to get the users gender -->
+          <select name="gender"><br>
+            <option value="0" selected>(please select)</option>
+            <option value="1">Male</option>
+            <option value="2">Female</option>
+            <option value="3">Other</option>
+          </select>
+        <br><br>
+
+        How often do you visit coffee shops?<br>
+        <!-- Radio buttons to get users choice of a selection -->
+          <input type="radio" name="value" value="first"> Once a week<br>
+          <input type="radio" name="value" value="second"> Between 2-6 times a week<br>
+          <input type="radio" name="value" value="third"> Everyday<br>
+          <input type="radio" name="value" value="fourth"> None<br><br>
+
+        What is your favorite coffee shop? Where is it located?<br>
+        <!-- Field to get the name of the users favourite coffee company -->
+          Company: <input type="text" name="shopname" placeholder="Shop Name"><br><br>
+        <!-- Field to get the location of the users favourite coffee shop -->
+          Location: <input type="text" name="location" placeholder="Location"><br><br>
+
+        What do you typically order to drink?<br>
+        <!-- Drop down box with choices to select the users favourite beverage -->
+        <select name="drink"><br>
+          <option value="0" selected>(please select)</option>
+          <option value="1">Tea</option>
+          <option value="2">Coffee</option>
+          <option value="3">Expresso</option>
+          <option value="4">Cappachino</option>
+          <option value="5">Chai latte</option>
+          <option value="6">Hot Chocolate</option>
+          <option value="other">Other, please specify:</option>
+        </select> <br><br>
+        <!-- Field to get the users favourite beverage if it was not in the drop down list -->
+        If other:<input type="text" name="otherchoice" placeholder="Other Drink">
+        <br><br>
+
+        Which snack/snacks do you normally have with your beverage?<br>
+        <!-- Checkboxes for the user to select their favourite snacks -->
+          <input type="checkbox" name="snack1" value="cookie"> Cookie <br>
+          <input type="checkbox" name="snack2" value="muffin"> Muffin <br>
+          <input type="checkbox" name="snack3" value="biscuit"> Biscuit <br>
+          <input type="checkbox" name="snack4" value="sandwich"> Sandwich <br>
+          <input type="checkbox" name="snack5" value="pie"> Pie <br>
+          <input type="checkbox" name="snack6" value="koeksister"> Koeksister <br>
+          <input type="checkbox" name="snack7" value="cake"> Cake <br>
+          <input type="checkbox" name="snack8" value="rusk"> Rusk <br><br>
+
+        Do you prefer large, national chain coffee shops or small, privately owned coffee shops?<br>
+        <!-- Radio buttons for the user to choose betweens 2 different options -->
+          <input type="radio" name="value" value="large">National Chain Coffee Shops<br>
+          <input type="radio" name="value" value="small">Private Owned Coffee Shops<br><br>
+
+        If you do have any other comments we would greatly appreciated if you put it in the box below:<br>
+        <!-- Text area for the user to comment -->
+        <textarea name="message" rows="10" cols="40">
+
+        </textarea>
+
+        <!-- Submit buttom for the user to send the information -->
+        <br><br><input type="submit" name"submit" value"Submit"><br>
+        <!-- Button to reset all the information in the form -->
+        <br><input type="reset">
+
+    </form>
+
+    <!-- End of form -->
+
+
+  </body>
+</html>
